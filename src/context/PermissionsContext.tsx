@@ -23,6 +23,8 @@ export const PermissionsProvider = ({ children }: any) => {
 
     const [permissions, setPermissions] = useState(permissionInitState);
 
+    console.log({ permissions });
+    
     useEffect(() => {
         
         checkLocationPermission();
