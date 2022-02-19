@@ -20,6 +20,7 @@ export const Fab = ({ iconName, onPress, style = {} }:Props) => {
                     size={ 35 }
                     name={ iconName }
                     color='#FFF'
+                    style={{ left: 1 }}
                 />
             </TouchableOpacity>
         </View>
